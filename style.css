@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellas que Salvan 🐾</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>🐾 HUELLAS QUE SALVAN</h1>
+        <p>Una segunda oportunidad para quienes nunca dejaron de confiar.</p>
+
+        <nav>
+            <a href="#inicio">Inicio</a> |
+            <a href="#realidad">La realidad</a> |
+            <a href="#ayuda">Cómo ayudar</a> |
+            <a href="#campana">Campaña</a> |
+            <a href="#participa">Participa</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Una segunda oportunidad cambia todo.</h2>
+
+            <p>
+                Miles de perros y gatos necesitan ayuda.
+                Ellos no eligieron vivir en las calles.
+                Merecen alimento, protección, cariño y una familia
+                que nunca los abandone.
+            </p>
+
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85"
+                 alt="Perro de pelaje dorado" width="450">
+
+            <p><a href="#ayuda">¡QUIERO AYUDAR!</a></p>
+        </section>
+
+        <hr>
+
+        <section id="realidad">
+            <h2>💔 Una realidad que debemos cambiar</h2>
+
+            <p>
+                El abandono animal es un problema que afecta a miles
+                de perros y gatos. Muchos quedan expuestos al hambre,
+                la sed, las enfermedades y diferentes peligros.
+            </p>
+
+            <h3>🐶 El abandono</h3>
+
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85"
+                 alt="Perro" width="300">
+
+            <p>
+                Los animales no son objetos que podemos abandonar
+                cuando dejan de ser una responsabilidad cómoda.
+            </p>
+
+            <h3>🐱 Necesitan cuidados</h3>
+
+            <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=85"
+                 alt="Gato" width="300">
+
+            <p>
+                Necesitan agua limpia, alimentación adecuada,
+                refugio y atención veterinaria.
+            </p>
+
+            <h3>❤️ La importancia de adoptar</h3>
+
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=85"
+                 alt="Gato rescatado" width="300">
+
+            <p>
+                Adoptar responsablemente significa ofrecer un hogar
+                seguro y comprometerse con el bienestar del animal
+                durante toda su vida.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="ayuda">
+            <h2>🐾 ¿Cómo podemos ayudar?</h2>
+
+            <h3>🥫 Donar alimento</h3>
+            <p>
+                Podemos reunir comida para perros y gatos
+                y entregarla a refugios responsables.
+            </p>
+
+            <h3>🏡 Adoptar</h3>
+            <p>
+                Darle un hogar a un animal rescatado
+                puede cambiar su historia.
+            </p>
+
+            <h3>💚 Ser voluntario</h3>
+            <p>
+                Podemos ayudar en refugios, compartir campañas
+                y promover el respeto hacia los animales.
+            </p>
+
+            <h3>🧺 Donar artículos</h3>
+            <p>
+                Las cobijas limpias, recipientes y elementos
+                de aseo también pueden ser de gran ayuda.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="campana">
+            <h2>🐾 DONA UNA HUELLA DE ESPERANZA</h2>
+
+            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1000&q=85"
+                 alt="Dos perros juntos" width="450">
+
+            <p>
+                Nuestra campaña busca reunir alimentos, cobijas,
+                elementos de aseo y apoyo para la atención veterinaria
+                de animales que viven en las calles.
+            </p>
+
+            <p>
+                No importa qué tan pequeña sea tu ayuda:
+                para ellos puede significar una nueva oportunidad.
+            </p>
+
+            <h3>¡Cada huella cuenta, cada vida importa!</h3>
+        </section>
+
+        <hr>
+
+        <section id="participa">
+            <h2>❤️ Sé parte del cambio</h2>
+
+            <h3>🐾 Protege</h3>
+            <p>
+                Respeta a todos los animales y denuncia
+                responsablemente los casos de maltrato.
+            </p>
+
+            <h3>🐾 Comparte</h3>
+            <p>
+                Difunde información de campañas y jornadas
+                de adopción verificadas.
+            </p>
+
+            <h3>🐾 Esteriliza</h3>
+            <p>
+                La esterilización responsable ayuda a prevenir
+                camadas no planeadas.
+            </p>
+
+            <h3>Información importante</h3>
+            <p>
+                En Colombia, la Ley 1774 de 2016 reconoce
+                a los animales como seres sintientes y establece
+                medidas para su protección.
+            </p>
+
+            <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=68135"
+               target="_blank">Consultar Ley 1774 de 2016</a>
+
+            <br><br>
+
+            <a href="https://www.animalesbog.gov.co/"
+               target="_blank">Conocer el Instituto Distrital de Protección y Bienestar Animal</a>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <h2>🐾 HUELLAS QUE SALVAN</h2>
+
+        <p>
+            "No podemos cambiar el mundo de todos los animales,
+            pero podemos cambiar el mundo de uno."
+        </p>
+
+        <p>Una segunda oportunidad comienza contigo. 💚</p>
+
+        <p>Campaña educativa de sensibilización y protección animal.</p>
+    </footer>
+
+</body>
+</html>
 
