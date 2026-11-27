@@ -1,198 +1,239 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huellas que Salvan 🐾</title>
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
-</head>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf8f0;
+    color: #20352c;
+    line-height: 1.6;
+}
 
-<body>
+/* ENCABEZADO */
+header {
+    background-color: #315d49;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
 
-    <header>
-        <h1>🐾 HUELLAS QUE SALVAN</h1>
-        <p>Una segunda oportunidad para quienes nunca dejaron de confiar.</p>
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
 
-        <nav>
-            <a href="#inicio">Inicio</a> |
-            <a href="#realidad">La realidad</a> |
-            <a href="#ayuda">Cómo ayudar</a> |
-            <a href="#campana">Campaña</a> |
-            <a href="#participa">Participa</a>
-        </nav>
-    </header>
+header p {
+    margin: 10px;
+    color: #e8f0e8;
+}
 
-    <hr>
+nav {
+    margin-top: 20px;
+}
 
-    <main>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
 
-        <section id="inicio">
-            <h2>Una segunda oportunidad cambia todo.</h2>
+nav a:hover {
+    color: #f2b184;
+}
 
-            <p>
-                Miles de perros y gatos necesitan ayuda.
-                Ellos no eligieron vivir en las calles.
-                Merecen alimento, protección, cariño y una familia
-                que nunca los abandone.
-            </p>
+/* SECCIONES */
+section {
+    padding: 60px 10%;
+}
 
-            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85"
-                 alt="Perro de pelaje dorado" width="450">
+section h2 {
+    color: #315d49;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-            <p><a href="#ayuda">¡QUIERO AYUDAR!</a></p>
-        </section>
+section h3 {
+    color: #e58b52;
+    font-size: 22px;
+    margin: 25px 0 10px;
+}
 
-        <hr>
+section p {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #66756b;
+}
 
-        <section id="realidad">
-            <h2>💔 Una realidad que debemos cambiar</h2>
+/* IMÁGENES */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #00000020;
+}
 
-            <p>
-                El abandono animal es un problema que afecta a miles
-                de perros y gatos. Muchos quedan expuestos al hambre,
-                la sed, las enfermedades y diferentes peligros.
-            </p>
+/* PORTADA */
+#inicio {
+    text-align: center;
+    background-color: #e8f0e8;
+    padding: 80px 10%;
+}
 
-            <h3>🐶 El abandono</h3>
+#inicio h2 {
+    font-size: 42px;
+    color: #315d49;
+}
 
-            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85"
-                 alt="Perro" width="300">
+#inicio p {
+    max-width: 750px;
+    margin: 20px auto;
+}
 
-            <p>
-                Los animales no son objetos que podemos abandonar
-                cuando dejan de ser una responsabilidad cómoda.
-            </p>
+/* REALIDAD */
+#realidad {
+    text-align: center;
+}
 
-            <h3>🐱 Necesitan cuidados</h3>
+#realidad img {
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+}
 
-            <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=85"
-                 alt="Gato" width="300">
+/* AYUDA */
+#ayuda {
+    background-color: #e8f0e8;
+    text-align: center;
+}
 
-            <p>
-                Necesitan agua limpia, alimentación adecuada,
-                refugio y atención veterinaria.
-            </p>
+#ayuda h3 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 25px auto 10px;
+}
 
-            <h3>❤️ La importancia de adoptar</h3>
+/* CAMPAÑA */
+#campana {
+    background-color: #315d49;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    margin: 40px;
+}
 
-            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=85"
-                 alt="Gato rescatado" width="300">
+#campana h2 {
+    color: white;
+    font-size: 38px;
+}
 
-            <p>
-                Adoptar responsablemente significa ofrecer un hogar
-                seguro y comprometerse con el bienestar del animal
-                durante toda su vida.
-            </p>
-        </section>
+#campana p {
+    color: #e8f0e8;
+    max-width: 750px;
+    margin: 15px auto;
+}
 
-        <hr>
+#campana h3 {
+    color: #f2b184;
+}
 
-        <section id="ayuda">
-            <h2>🐾 ¿Cómo podemos ayudar?</h2>
+/* PARTICIPACIÓN */
+#participa {
+    text-align: center;
+}
 
-            <h3>🥫 Donar alimento</h3>
-            <p>
-                Podemos reunir comida para perros y gatos
-                y entregarla a refugios responsables.
-            </p>
+#participa h3 {
+    background-color: #e8f0e8;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 25px auto 10px;
+}
 
-            <h3>🏡 Adoptar</h3>
-            <p>
-                Darle un hogar a un animal rescatado
-                puede cambiar su historia.
-            </p>
+#participa a {
+    display: inline-block;
+    color: #315d49;
+    font-weight: bold;
+    margin: 10px;
+}
 
-            <h3>💚 Ser voluntario</h3>
-            <p>
-                Podemos ayudar en refugios, compartir campañas
-                y promover el respeto hacia los animales.
-            </p>
+#participa a:hover {
+    color: #e58b52;
+}
 
-            <h3>🧺 Donar artículos</h3>
-            <p>
-                Las cobijas limpias, recipientes y elementos
-                de aseo también pueden ser de gran ayuda.
-            </p>
-        </section>
+/* BOTONES Y ENLACES */
+a {
+    transition: 0.3s;
+}
 
-        <hr>
+/* LÍNEAS */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #dce5dc;
+}
 
-        <section id="campana">
-            <h2>🐾 DONA UNA HUELLA DE ESPERANZA</h2>
+/* PIE DE PÁGINA */
+footer {
+    background-color: #172b22;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
 
-            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1000&q=85"
-                 alt="Dos perros juntos" width="450">
+footer h2 {
+    margin-bottom: 15px;
+    color: #f2b184;
+}
 
-            <p>
-                Nuestra campaña busca reunir alimentos, cobijas,
-                elementos de aseo y apoyo para la atención veterinaria
-                de animales que viven en las calles.
-            </p>
+footer p {
+    margin: 10px;
+    color: #e8f0e8;
+}
 
-            <p>
-                No importa qué tan pequeña sea tu ayuda:
-                para ellos puede significar una nueva oportunidad.
-            </p>
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 768px) {
 
-            <h3>¡Cada huella cuenta, cada vida importa!</h3>
-        </section>
+    header h1 {
+        font-size: 25px;
+    }
 
-        <hr>
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
 
-        <section id="participa">
-            <h2>❤️ Sé parte del cambio</h2>
+    section {
+        padding: 40px 6%;
+    }
 
-            <h3>🐾 Protege</h3>
-            <p>
-                Respeta a todos los animales y denuncia
-                responsablemente los casos de maltrato.
-            </p>
+    section h2 {
+        font-size: 26px;
+    }
 
-            <h3>🐾 Comparte</h3>
-            <p>
-                Difunde información de campañas y jornadas
-                de adopción verificadas.
-            </p>
+    #inicio h2 {
+        font-size: 32px;
+    }
 
-            <h3>🐾 Esteriliza</h3>
-            <p>
-                La esterilización responsable ayuda a prevenir
-                camadas no planeadas.
-            </p>
+    #campana {
+        margin: 15px;
+        padding: 30px 15px;
+    }
 
-            <h3>Información importante</h3>
-            <p>
-                En Colombia, la Ley 1774 de 2016 reconoce
-                a los animales como seres sintientes y establece
-                medidas para su protección.
-            </p>
+    #campana h2 {
+        font-size: 28px;
+    }
 
-            <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=68135"
-               target="_blank">Consultar Ley 1774 de 2016</a>
-
-            <br><br>
-
-            <a href="https://www.animalesbog.gov.co/"
-               target="_blank">Conocer el Instituto Distrital de Protección y Bienestar Animal</a>
-        </section>
-
-    </main>
-
-    <hr>
-
-    <footer>
-        <h2>🐾 HUELLAS QUE SALVAN</h2>
-
-        <p>
-            "No podemos cambiar el mundo de todos los animales,
-            pero podemos cambiar el mundo de uno."
-        </p>
-
-        <p>Una segunda oportunidad comienza contigo. 💚</p>
-
-        <p>Campaña educativa de sensibilización y protección animal.</p>
-    </footer>
-
-</body>
-</html>
-
+    img {
+        width: 100%;
+    }
+}
